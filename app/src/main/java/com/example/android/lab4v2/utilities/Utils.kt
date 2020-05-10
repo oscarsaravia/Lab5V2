@@ -1,0 +1,13 @@
+package com.example.android.lab4v2.utilities
+
+import android.app.Activity
+import com.example.android.lab4v2.Guest
+
+class Utils {
+    companion object{
+        var lista: MutableList<Guest> = mutableListOf(Guest("Oscar Saravia", "21882345", "oscar44@mail.es"))
+        var invitados: Int = 0
+        var registrados: Int = 0
+        var listado: String = ""
+    }
+}
